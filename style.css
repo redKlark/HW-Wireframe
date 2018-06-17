@@ -27,40 +27,55 @@ header {background:#ebebeb;
 
 
 .container {
-    width: 495px;
+    width: 565px;
     margin:auto;
     margin-bottom: 20px;
     overflow: auto;
-    position: absolute;
+    
+   
 }
 
 .section{
     background: #ebebeb;
-    width: 60%;
-    float:left;
-    padding: 0;
-    position: absolute;
-    left: 0;
+    width: 320px;
+    float: left;
+    height: 270px;
     margin-right: 20px;
+    text-align: center;
+    line-height: 3.4;
+
 }
 .article{
     color: #ebebeb;
 background: #777;
-    
+width: 290px;
+margin: auto;
+height: 200px;
+
 }
 
-.h1{color: #777;
+.h1 {
+    color: #777;
     background: #ebebeb;
+    margin: auto;
+    margin-bottom: 7px;
+    width: 250px;
+
 }
 
-.p{color: #777;
+.p { 
+    color: #777;
     background: #ebebeb;
-
+    margin:auto;
+    width: 250px;
 }
 .aside { 
     background:#ebebeb;
-    width:40%;
-    float:left;
+    width:39.7%;
+    float: left;
+    text-align: center;
+    height: 270px;
+    
     
 }
 
@@ -71,5 +86,5 @@ footer{
     margin: auto;
     padding: 35px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
 }
